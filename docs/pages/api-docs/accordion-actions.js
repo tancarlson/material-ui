@@ -16,7 +16,7 @@ Page.getInitialProps = () => {
   );
   const descriptions = mapApiPageTranslations(req);
 
-  const description = "req";
+  //const description = "req";
   return {
     descriptions,
     pageContent: jsonPageContent,
